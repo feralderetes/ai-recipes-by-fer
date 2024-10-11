@@ -21,7 +21,7 @@ function generateRecipe(event) {
   recipeElement.classList.remove("hidden");
 
   new Typewriter("#recipe", {
-    strings: ["Generating recipe..."],
+    strings: ["Generating recipe...", "Please wait..."],
     autoStart: true,
     delay: 1,
   });
