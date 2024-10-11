@@ -26,17 +26,22 @@
         <h1>AI Recipes Generator 🍳</h1>
       </header>
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a main ingredient for your recipe"
-            required
-            class="prompt"
-            id="user-input"
-          />
-          <input type="submit" value="Generate" class="submit-button" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-wrapper">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a main ingredient for your recipe"
+              required
+              class="prompt"
+              id="user-input"
+            />
+            <input type="submit" value="Generate" class="submit-button" />
+          </form>
+          <div class="hint">
+            e.g., cheese, rice, chicken, condensed milk, etc...
+          </div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
     </div>
     <footer>

@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  margin: 120px auto;
+  margin: 120px auto 50px auto;
   max-width: 650px;
   min-height: fit-content;
 }
@@ -30,13 +30,24 @@ h4 {
   margin: 5px;
 }
 
-form {
+.form-wrapper {
   background-color: rgb(25, 25, 25);
-  padding: 20px;
-  border-radius: 50px;
+  margin-bottom: 5px;
+  border-radius: 60px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 20px 25px 5px 25px;
+}
+
+form {
   display: flex;
-  margin-bottom: 30px;
+}
+
+.hint {
+  color: white;
+  margin-top: 5px;
+  font-size: 10px;
+  margin-left: 40px;
+  opacity: 0.8;
 }
 
 .prompt {
@@ -78,8 +89,12 @@ form {
   margin-top: 20px;
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
-  margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
