@@ -3,48 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/style.css" />
     <title>AI Recipes Generator | By Fer Alderetes</title>
   </head>
   <body>
-    <header>
-      <h1>AI Recipes Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a main ingredient for your recipe"
-          required
-        />
-        <input type="submit" value="Generate" />
-      </form>
-      <div>The recipe will go here</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Recipes Generator 🍳</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a main ingredient for your recipe"
+            required
+            class="prompt"
+          />
+          <input type="submit" value="Generate" class="submit-button" />
+        </form>
+        <div class="recipe">
+          How to Make Lasagna <br />
+          this recipe, we are essentially making a thick, meaty tomato sauce and
+          layering that with noodles and cheese into a casserole. Here's the
+          run-down: <br /><br />
+          Start by making the sauce with ground beef, bell peppers, onions, and
+          a combo of tomato sauce, tomato paste, and crushed tomatoes. The three
+          kinds of tomatoes gives the sauce great depth of flavor. <br />
+          <br />
+          Let this simmer while you boil the noodles and get the cheeses ready.
+          We're using ricotta, shredded mozzarella, and parmesan -- like the mix
+          of tomatoes, this 3-cheese blend gives the lasagna great flavor!<br />
+          <br />
+          From there, it's just an assembly job. A cup of meat sauce, a layer of
+          noodles, more sauce, followed by a layer of cheese. Repeat until you
+          have three layers and have used up all the ingredients.<br />
+          <br />
+          Bake until bubbly and you're ready to eat!
+        </div>
+      </main>
+    </div>
     <footer>
-      This project was coded by
-      <a
-        href="https://github.com/feralderetes/"
-        target="_blank"
-        rel="noreferrer"
-        title="Github profile"
-        >Fer Alderetes</a
-      >👩🏻‍💻, is open-sourced on
-      <a
-        href="https://github.com/feralderetes/ai-recipes-by-fer/"
-        target="_blank"
-        rel="noreferrer"
-        title="Github repository"
-        >Github</a
-      >
-      and it is hosted on
-      <a
-        href="https://ai-recipes-by-fer.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-        title="Netlify hosted website"
-        >Netlify</a
-      >
+      <p>
+        This project was coded by
+        <a
+          href="https://github.com/feralderetes/"
+          target="_blank"
+          rel="noreferrer"
+          title="Github profile"
+          >Fer Alderetes</a
+        >👩🏻‍💻, is open-sourced on
+        <a
+          href="https://github.com/feralderetes/ai-recipes-by-fer/"
+          target="_blank"
+          rel="noreferrer"
+          title="Github repository"
+          >Github</a
+        >
+        and it is hosted on
+        <a
+          href="https://ai-recipes-by-fer.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          title="Netlify hosted website"
+          >Netlify</a
+        >
+      </p>
     </footer>
     <script src="./src/index.js"></script>
   </body>
