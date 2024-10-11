@@ -63,7 +63,8 @@ form {
 
 .submit-button {
   margin-left: 15px;
-  background-color: white;
+  background-color: rgba(219, 98, 17);
+  color: white;
   border: none;
   width: 150px;
   border-radius: 50px;
